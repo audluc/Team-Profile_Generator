@@ -127,5 +127,5 @@ function addEngineer (){
       fs.mkdirSync(OUTPUT_DIR)
     }
     fs.writeFileSync(outputPath, render(employees), "utf8")
-    }
-   chooseRole()  
+    }}
+   chooseRole()
