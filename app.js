@@ -71,6 +71,7 @@ function addManager() {
       employees.push(manager);
       chooseRole();
     });
+  }
   function addEngineer() {
     inquirer
       .prompt([
@@ -131,13 +132,13 @@ function addManager() {
         },
       ])
       .then((answers) => {
-        let Intern = new Intern(
+        let intern = new Intern(
           answers.eName,
           answers.eLocation,
           answers.eEmail,
           answers.eSchool
         );
-        employees.push(Intern);
+        employees.push(intern);
         chooseRole();
       });
   }
@@ -147,5 +148,4 @@ function addManager() {
     }
     fs.writeFileSync(outputPath, render(employees), "utf8");
   }
-}
 chooseRole();
