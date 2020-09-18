@@ -11,7 +11,7 @@ I want to generate a webpage that displays my team's basic info so that I have q
 ---
 * The URL of the GitHub repository https://github.com/audluc/Team-Profile_Generator
 
-* A video demonstrating the entirety of the app's functionality 
+* A video demonstrating the entirety of the app's functionality https://drive.google.com/file/d/17i6_8DEA8fJ11NWqmqGKEbvdA-883Onl/view
 
 - - -
 © 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
