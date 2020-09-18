@@ -57,8 +57,8 @@ function addManager() {
       },
       {
         type: "input",
-        name: "github",
-        message: "What is Github name?",
+        name: "officeNumber", 
+        message: "What is your Manager office number?",
       },
     ])
     .then((answers) => {
@@ -66,7 +66,7 @@ function addManager() {
         answers.eName,
         answers.eId,
         answers.eEmail,
-        answers.github
+        answers.officeNumber
       );
       employees.push(manager);
       chooseRole();
@@ -92,7 +92,7 @@ function addManager() {
         {
           type: "input",
           name: "github",
-          message: "What is Github name?",
+          message: "What is your Github name?",
         },
       ])
       .then((answers) => {
@@ -122,7 +122,7 @@ function addManager() {
         {
           type: "input",
           name: "eEmail",
-          message: "What email?",
+          message: "What is your email?",
         },
         {
           type: "input",
