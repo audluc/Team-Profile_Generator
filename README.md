@@ -9,7 +9,7 @@ As a manager
 I want to generate a webpage that displays my team's basic info so that I have quick access to emails and GitHub profiles
 ```
 ---
-* The URL of the GitHub repository
+* The URL of the GitHub repository https://github.com/audluc/Team-Profile_Generator
 
 * A video demonstrating the entirety of the app's functionality 
 
